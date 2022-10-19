@@ -1,13 +1,22 @@
 site_name: refarch-springboot-aiven
 site_url: https://dktunited.github.io/refarch-springboot-aiven
 repo_url: https://github.com/dktunited/refarch-springboot-aiven
-edit_uri: 'blob/main/docs/'
 copyright: "Decathlon Technology"
 use_directory_urls: true
+edit_uri: edit/main/docs
 
 theme:
   name: material
+  palette:
+    primary: light blue
+  font:
+    text: Roboto
+  favicon: assets/favicon64x64.png
+  logo: assets/favicon64x64.png
+
+extra_css:
+  - assets/extra.css
 
 extra:
     version:
-        provider: mike
+        provider: mike  
