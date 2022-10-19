@@ -1,12 +1,12 @@
-# System Scope and Context
+# System scope and context
 
-## Business Context
+## Business context
 
 **&lt;Diagram or Table&gt;**
 
 **&lt;optionally: Explanation of external domain interfaces&gt;**
 
-## Technical Context
+## Technical context
 
 **&lt;Diagram or Table&gt;**
 
