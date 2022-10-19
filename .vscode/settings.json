@@ -1,0 +1,9 @@
+{
+    "conventionalCommits.scopes": [
+        "gh_actions"
+    ],
+    "yaml.schemas": {
+        "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml",
+        "https://json.schemastore.org/github-workflow.json": "file:///Users/TRISTAN/Documents/Workspaces/dktunited/refarch-springboot-aiven/.github/workflows/deploy.yml"
+    }
+}

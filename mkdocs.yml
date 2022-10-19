@@ -1,0 +1,13 @@
+site_name: refarch-springboot-aiven
+site_url: https://dktunited.github.io/refarch-springboot-aiven
+repo_url: https://github.com/dktunited/refarch-springboot-aiven
+edit_uri: 'blob/main/docs/'
+copyright: "Decathlon Technology"
+use_directory_urls: true
+
+theme:
+  name: material
+
+extra:
+    version:
+        provider: mike
