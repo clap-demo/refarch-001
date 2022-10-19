@@ -45,5 +45,8 @@
     "@commitlint/prompt-cli": "^17.1.2",
     "husky": "^8.0.0",
     "semantic-release": "^19.0.5"
+  },
+  "dependencies": {
+    "madr": "^3.0.0"
   }
 }
