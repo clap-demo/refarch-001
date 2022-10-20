@@ -1,9 +1,12 @@
 {
     "conventionalCommits.scopes": [
-        "ui"
+        "techdocs",
+        "software-templates",
+        "catalog",
+        "ux"
     ],
     "yaml.schemas": {
         "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml",
-        "https://json.schemastore.org/github-workflow.json": "file:///Users/TRISTAN/Documents/Workspaces/dktunited/refarch-springboot-aiven/.github/workflows/deploy.yml"
+        "https://json.schemastore.org/github-workflow.json": ".github/workflows/.yml"
     }
 }
