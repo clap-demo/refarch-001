@@ -1,11 +1,11 @@
 # Use Markdown Any Decision Records
 
-## Context and Problem Statement
+## Context and problem statement
 
 We want to record any decisions made in this project independent whether decisions concern the architecture ("architectural decision record"), the code, or other fields.
 Which format and structure should these records follow?
 
-## Considered Options
+## Considered options
 
 * [MADR](https://adr.github.io/madr/) 3.0.0 - The Markdown Any Decision Records
 * [Michael Nygard's template](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) – The first incarnation of the term "ADR"
@@ -13,7 +13,7 @@ Which format and structure should these records follow?
 * Other templates listed at <https://github.com/joelparkerhenderson/architecture_decision_record>
 * Formless – No conventions for file format and structure
 
-## Decision Outcome
+## Decision outcome
 
 Chosen option: "MADR 3.0.0," because
 

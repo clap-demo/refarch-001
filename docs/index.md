@@ -1,4 +1,7 @@
-# About this document
+---
+hide:
+  - toc
+  - navigation
+---
 
-<https://arc42.org/documentation/>
-
+# 
