@@ -1,4 +1,4 @@
-site_name: Spring Boot and PostgreSQL application
+site_name: Spring Boot and PostgreSQL system
 site_url: https://dktunited.github.io/refarch-springboot-aiven
 repo_url: https://github.com/dktunited/refarch-springboot-aiven
 copyright: "Decathlon Technology"
@@ -30,6 +30,7 @@ plugins:
   - search
 
 markdown_extensions:
+  - attr_list
   - def_list
   
 extra_css:

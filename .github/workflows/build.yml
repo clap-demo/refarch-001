@@ -1,6 +1,9 @@
 name: build docs
 
 "on":
+  push:
+    branches: 
+      - '**'
   pull_request:
     branches:
       - main
@@ -11,6 +14,26 @@ name: build docs
     types: [published]
 
 jobs:
+
+  from_branch:
+    if: ${{ github.event_name == 'push' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v3
+        with:
+          python-version: 3.x
+      - run: pip install -r requirements.txt
+      - name: git config
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+      - name: mkdocs build
+        run: |
+          mkdocs build --strict
+
   from_pull_request:
     if: ${{ github.event_name == 'pull_request' }}
     runs-on: ubuntu-latest
