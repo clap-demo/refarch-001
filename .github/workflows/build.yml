@@ -1,4 +1,4 @@
-name: build docs
+name: build
 
 "on":
   push:
@@ -14,8 +14,7 @@ name: build docs
     types: [published]
 
 jobs:
-
-  from_branch:
+  mkdocs:
     if: ${{ github.event_name == 'push' }}
     runs-on: ubuntu-latest
     steps:
@@ -33,42 +32,3 @@ jobs:
       - name: mkdocs build
         run: |
           mkdocs build --strict
-
-  from_pull_request:
-    if: ${{ github.event_name == 'pull_request' }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-python@v3
-        with:
-          python-version: 3.x
-      - run: pip install -r requirements.txt
-      - name: git config
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-      - name: mike deploy
-        run: |
-          mike deploy --push --title "PR #${{ github.event.number }}" PR-${{ github.event.number }}
-
-  from_release:
-    if: ${{ github.event_name == 'release' }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-python@v3
-        with:
-          python-version: 3.x
-      - run: pip install -r requirements.txt
-      - name: git config
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-      - name: mike deploy
-        run: |
-          mike deploy --push --update-aliases ${{ github.event.release.tag_name }} latest
-          mike set-default --push latest
