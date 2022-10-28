@@ -7,14 +7,14 @@ name: review
 
 jobs:
   commitlint:
-    runs-on: ubuntu-latest
+    runs-on: decathlon
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
       - uses: wagoid/commitlint-github-action@v5
   vale:
-    runs-on: ubuntu-latest
+    runs-on: decathlon
     steps:
       - uses: actions/checkout@v3
       - uses: errata-ai/vale-action@reviewdog
