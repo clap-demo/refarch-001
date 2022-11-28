@@ -16,7 +16,7 @@ name: build
 jobs:
   mkdocs:
     if: ${{ github.event_name == 'push' }}
-    runs-on: decathlon
+    runs-on: ubuntu
     steps:
       - uses: actions/checkout@v3
         with:

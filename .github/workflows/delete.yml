@@ -12,7 +12,7 @@ name: delete docs
 
 jobs:
   pull_request:
-    runs-on: decathlon
+    runs-on: ubuntu
     steps:
       - uses: actions/checkout@v3
         with:

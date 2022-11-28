@@ -7,7 +7,7 @@ name: release
 jobs:
   semantic:
     name: release
-    runs-on: decathlon
+    runs-on: ubuntu
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
