@@ -1,14 +1,13 @@
 ---
 title: System scope and context
 ---
-
 # System scope and context
 
 ## Business context
 
-**&lt;Diagram or Table&gt;**
+**Diagram or Table**
 
-**&lt;optionally: Explanation of external domain interfaces&gt;**
+**optionally: Explanation of external domain interfaces**
 
 ## Technical context
 
