@@ -1,6 +1,6 @@
 nav:
     - Abstract: index.md
     - documentation
-    - architecture
+    - system-design
     - decisions
     - assessments

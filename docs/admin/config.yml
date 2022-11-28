@@ -8,12 +8,11 @@ media_folder: "site/assets"
 publish_mode: editorial_workflow
 
 collections:
-  - name: "architecture"
-    label: "Architecture"
-    folder: "docs/architecture"
-    create: true
+  - name: "system-design"
+    label: "System Design"
+    folder: "docs/system-design"
+    create: false
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Publish Date", name: "date", widget: "string"}
