@@ -1,8 +1,6 @@
 ---
 title: Introduction and Goals
 ---
-# Introduction and Goals
-
 ## Requirements Overview
 
 ## Quality Goals
