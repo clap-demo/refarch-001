@@ -2,8 +2,7 @@ backend:
   name: github
   repo: trivoallan/refarch-skel
   branch: main
-  base_url: https://us-central1-clap-demo-1.cloudfunctions.net/netlifycms_oauth
-  site_domain: trivoallan.github.io
+  base_url: https://clap-demo-1.ew.r.appspot.com/
   squash_merges: true
   open_authoring: true
   commit_messages:
