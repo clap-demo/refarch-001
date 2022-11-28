@@ -24,8 +24,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "adr"
-    label: "Architecture Decision Records"
-    label_singular: "Decision Record"
+    label: "ADR"
     folder: "docs/decisions/records"
     create: true
     slug: "{{id}}-{{slug}}"

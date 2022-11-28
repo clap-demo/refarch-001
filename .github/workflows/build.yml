@@ -31,4 +31,4 @@ jobs:
           git config --local user.name "github-actions[bot]"
       - name: mkdocs build
         run: |
-          mkdocs build --strict
+          mkdocs build

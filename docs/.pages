@@ -1,6 +1,4 @@
 nav:
     - Abstract: index.md
-    - documentation
-    - system-design
+    - System Design: system-design
     - decisions
-    - assessments
