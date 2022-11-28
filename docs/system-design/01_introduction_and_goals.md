@@ -5,7 +5,7 @@ title: Introduction and Goals
 
 ## Quality Goals
 
-![](media/80163217_p.jpg)
+![](/media/80163217_p.jpg)
 
 ## Stakeholders
 
