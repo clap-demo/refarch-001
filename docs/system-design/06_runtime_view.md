@@ -1,5 +1,5 @@
 ---
-title: Runtime View (C4)
+title: Runtime View
 ---
 ## Runtime Scenario 1
 
