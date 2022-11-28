@@ -1,7 +1,6 @@
 backend:
-  name: github
-  repo: trivoallan/refarch-skel
-  branch: main
+  name: git-gateway
+
 
 public_folder: "site"
 media_folder: "site/assets"
