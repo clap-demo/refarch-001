@@ -32,14 +32,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dktunited/refarch-springboot-aiven.git"
+    "url": "git+https://github.com/trivoallan/refarch-skel.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dktunited/refarch-springboot-aiven/issues"
+    "url": "https://github.com/trivoallan/refarch-skel/issues"
   },
-  "homepage": "https://github.com/dktunited/refarch-springboot-aiven#readme",
+  "homepage": "https://github.com/trivoallan/refarch-skel#readme",
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
