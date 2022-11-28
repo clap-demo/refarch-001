@@ -5,7 +5,7 @@ title: Introduction and Goals
 
 ## Quality Goals
 
-![](site/tumblr_nst0eeunzj1uz2g97o1_500.jpg)
+![](site/vxkmlxg.jpg)
 
 ## Stakeholders
 
