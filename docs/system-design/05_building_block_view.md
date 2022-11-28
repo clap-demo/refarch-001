@@ -1,3 +1,7 @@
+---
+title: Building Block View
+---
+
 # Building Block View
 
 ## System Context diagram
