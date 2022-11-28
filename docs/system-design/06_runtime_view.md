@@ -1,7 +1,7 @@
 ---
 title: Runtime View (C4)
 ---
-## &lt;Runtime Scenario 1&gt;
+## Runtime Scenario 1
 
 * *&lt;insert runtime diagram or textual description of the
   scenario&gt;*
