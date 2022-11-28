@@ -16,3 +16,12 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "adr"
+    label: "ADR"
+    folder: "docs/decisions/records"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "ID", name: "id", widget: "number"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown", default: "## Context and problem statement\n## Considered options\n## Decision outcome"}
