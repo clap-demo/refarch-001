@@ -2,7 +2,7 @@ backend:
   name: github
   repo: trivoallan/refarch-skel
   branch: main
-  base_url: https://us-central1-clap-demo-1.cloudfunctions.net/netlifycms_oauth
+  base_url: https://us-central1-clap-demo-1.cloudfunctions.net
   auth: netlifycms_oauth/auth
   squash_merges: true
   open_authoring: true
