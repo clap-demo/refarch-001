@@ -2,8 +2,6 @@
 id: 1
 title: Use Markdown Any Decision Records
 ---
-# ADR-001 - Use Markdown Any Decision Records
-
 ## Context and problem statement
 
 We want to record any decisions made in this project independent whether decisions concern the architecture ("architectural decision record"), the code, or other fields.
