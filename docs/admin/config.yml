@@ -4,9 +4,9 @@ backend:
   squash_merges: true
   open_authoring: true
   commit_messages:
-    create: "doc({{collection}}): create {{slug}}"
-    update: "doc({{collection}}): update {{slug}}"
-    delete: "doc({{collection}}): delete {{slug}}"
+    create: "docs({{collection}}): create {{slug}}"
+    update: "docs({{collection}}): update {{slug}}"
+    delete: "docs({{collection}}): delete {{slug}}"
 
 public_folder: "site"
 media_folder: "site/assets"
