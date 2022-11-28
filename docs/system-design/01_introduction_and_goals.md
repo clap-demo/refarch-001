@@ -1,11 +1,11 @@
 ---
 title: Introduction and Goals
 ---
-# Introduction and Goals
-
 ## Requirements Overview
 
 ## Quality Goals
+
+![](site/tumblr_nst0eeunzj1uz2g97o1_500.jpg)
 
 ## Stakeholders
 
