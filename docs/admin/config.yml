@@ -2,6 +2,7 @@ backend:
   name: github
   repo: trivoallan/refarch-skel
   branch: main
+  site_domain: refarch-skel.netlify.app
   squash_merges: true
   open_authoring: true
   commit_messages:
