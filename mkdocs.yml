@@ -1,5 +1,5 @@
 site_name: Reference Architecture Skeleton
-site_url: https://refarch-skel.netlify.app
+site_url: https://trivoallan.github.io/refarch-skel/
 repo_url: https://github.com/trivoallan/refarch-skel
 copyright: ""
 use_directory_urls: true
@@ -32,11 +32,11 @@ plugins:
 markdown_extensions:
   - attr_list
   - def_list
-  
+
 extra_css:
   - assets/extra.css
 
 extra:
   version:
-    provider: mike  
+    provider: mike
   homepage: /
