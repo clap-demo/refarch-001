@@ -1,0 +1,40 @@
+backend:
+  name: git-gateway
+  branch: main
+  squash_merges: true
+  open_authoring: true
+  commit_messages:
+    create: "doc({{collection}}: create {{slug}}"
+    update: "doc({{collection}}: update {{slug}}"
+    delete: "doc({{collection}}: delete {{slug}}"
+
+public_folder: "site"
+media_folder: "site/assets"
+publish_mode: editorial_workflow
+
+collections:
+  - name: "system-design"
+    label: "System Design"
+    folder: "docs/system-design"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "adr"
+    label: "Architecture Decision Records"
+    label_singular: "Decision Record"
+    folder: "docs/decisions/records"
+    create: true
+    slug: "{{id}}-{{slug}}"
+    summary: "00{{id}} - {{title}}"
+    fields:
+      - {label: "ID", name: "id", widget: "number", required: true, default: "000"}
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - label: "Body" 
+        name: "body"
+        widget: "markdown"
+        default: |
+          ## Context and problem statement
+          ## Considered options
+          ## Decision outcome
