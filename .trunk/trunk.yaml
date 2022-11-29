@@ -15,6 +15,7 @@ lint:
     - markdownlint@0.32.2
     - git-diff-check
     - gitleaks@8.15.1
+    - trivy@0.35.0
 runtimes:
   enabled:
     - go@1.18.3
