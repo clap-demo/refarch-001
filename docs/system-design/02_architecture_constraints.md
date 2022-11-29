@@ -1,7 +1,7 @@
 ---
 title: Architecture Constraints
 ---
-T﻿his is not a good way to speak the english language !!
+T﻿his is not a good way to speak the english language language language !!
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis dolor sed tortor dignissim vestibulum. Vivamus at ex quis purus gravida ullamcorper a in justo. Morbi hendrerit, augue a tristique fringilla, felis mauris pulvinar nunc, nec auctor ante ex dapibus augue. Etiam at felis risus. Praesent finibus ante eget semper tristique. In eget dolor semper, varius neque et, congue urna. Vivamus sed velit dui. Maecenas euismod id nisl sit amet luctus. Nunc facilisis eu erat sit amet semper. Etiam justo purus, auctor vel vulputate in, fermentum et sem. Fusce congue velit ligula, at pulvinar enim tincidunt et. Praesent vel tristique eros.
 
