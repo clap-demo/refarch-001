@@ -1,0 +1,58 @@
+{
+  "name": "refarch-springboot-aiven",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "is-ci || husky install",
+    "commit": "commit",
+    "dev": "mkdocs serve"
+  },
+  "release": {
+    "branches": [
+      "+([0-9])?(.{+([0-9]),x}).x",
+      "main",
+      "next",
+      "next-major",
+      {
+        "name": "beta",
+        "prerelease": true
+      },
+      {
+        "name": "alpha",
+        "prerelease": true
+      }
+    ],
+    "plugins": [
+      ["@semantic-release/commit-analyzer", {
+        "preset": "conventionalcommits",
+        "releaseRules": [
+          {"type": "docs", "release": "patch"}
+        ]
+      }],
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trivoallan/refarch-skel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trivoallan/refarch-skel/issues"
+  },
+  "homepage": "https://github.com/trivoallan/refarch-skel#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@commitlint/prompt-cli": "^17.1.2",
+    "husky": "^8.0.0",
+    "semantic-release": "^19.0.5"
+  },
+  "dependencies": {
+    "madr": "^3.0.0"
+  }
+}

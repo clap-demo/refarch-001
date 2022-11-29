@@ -1,0 +1,11 @@
+{
+    "conventionalCommits.scopes": [
+        "techdocs",
+        "software-templates",
+        "catalog"
+    ],
+    "yaml.schemas": {
+        "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml",
+        "https://json.schemastore.org/github-workflow.json": ".github/workflows/.yml"
+    }
+}

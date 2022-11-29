@@ -1,0 +1,27 @@
+name: review
+
+"on":
+  push:
+    branches:
+      - '**' 
+
+jobs:
+  commitlint:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: wagoid/commitlint-github-action@v5
+  vale:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: errata-ai/vale-action@reviewdog
+        env:
+          GITHUB_TOKEN: ${{secrets.GH_TOKEN}}
+        with:
+          files: docs
+          fail_on_error: false
+          vale_flags: "--minAlertLevel=error"
+          reporter: github-pr-check
