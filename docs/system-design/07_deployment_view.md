@@ -11,7 +11,7 @@ Motivation\
 
 Quality and/or Performance Features\
 
-qualiry is the clé
+qualiry is the clé des chalpo
 
 Mapping of Building Blocks to Infrastructure\
 
