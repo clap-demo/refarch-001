@@ -1,4 +1,4 @@
 nav:
-    - Abstract: index.md
     - System Design: system-design
-    - decisions
+    - ADR: decisions
+    - Automated Deployment: automated-deployment.md
