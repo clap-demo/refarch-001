@@ -3,6 +3,7 @@ site_url: https://clap-demo.github.io/refarch-001/
 repo_url: https://github.com/clap-demo/refarch-001
 copyright: ""
 use_directory_urls: true
+edit_uri: ""
 
 theme:
   name: material
@@ -14,7 +15,6 @@ theme:
   logo: assets/favicon64x64.png
   features:
     - navigation.tabs
-    - navigation.sections
     - navigation.tabs.sticky
     - navigation.tracking
     - toc.follow
@@ -23,6 +23,7 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
+    - header.autohide
 
 plugins:
   - awesome-pages
@@ -41,3 +42,8 @@ extra:
     provider: mike
     default: latest
   homepage: https://clap-demo.github.io/refarch-001/
+  social:
+    - icon: fontawesome/solid/pen
+      link: https://clap-demo.github.io/refarch-001/admin/
+      name: Content Manager
+  generator: false

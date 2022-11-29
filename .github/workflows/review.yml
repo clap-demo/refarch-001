@@ -5,8 +5,6 @@ name: review
     branches:
       - '**' 
   pull_request:
-    branches:
-      - main
 
 jobs:
   commitlint:
@@ -16,6 +14,7 @@ jobs:
         with:
           fetch-depth: 0
       - uses: wagoid/commitlint-github-action@v5
+
   vale:
     if: ${{ github.event_name == 'pull_request' }}
     runs-on: ubuntu-22.04
