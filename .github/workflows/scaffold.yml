@@ -46,8 +46,7 @@ jobs:
         env:
           INFO: ${{ steps.fetch-repo-and-user-details.outputs.result }}
         run: |
-          rm -rf *
-          rm -rf .* || true
+          rm -rf * .github .husky .trunk .vale.ini .vscode .gitignore
           export REPO_NAME=$(echo $INFO | jq -r '.repository.name')
           # Run cookiecutter
           cookiecutter gh:trivoallan/refarch-skel --directory templates/default --no-input \

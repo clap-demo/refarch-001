@@ -4,4 +4,6 @@ hide:
   - navigation
 ---
 
-TODO
+# Scaffold
+
+<https://github.com/trivoallan/refarch-skel/generate>
