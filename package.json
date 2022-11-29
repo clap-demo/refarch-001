@@ -37,14 +37,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trivoallan/refarch-skel.git"
+    "url": "git+https://github.com/clap-demo/refarch-001.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/trivoallan/refarch-skel/issues"
+    "url": "https://github.com/clap-demo/refarch-001/issues"
   },
-  "homepage": "https://github.com/trivoallan/refarch-skel#readme",
+  "homepage": "https://github.com/clap-demo/refarch-001#readme",
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
