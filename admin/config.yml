@@ -11,7 +11,7 @@ backend:
     delete: "docs({{collection}}): delete {{slug}}"
 
 public_folder: "/refarch-skel/assets/media"
-media_folder: "assets/media"
+media_folder: "docs/assets/media"
 publish_mode: editorial_workflow
 
 collections:
