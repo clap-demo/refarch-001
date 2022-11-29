@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: trivoallan/refarch-skel
+  repo: clap-demo/refarch-001
   branch: main
   base_url: https://clap-demo-1.ew.r.appspot.com/
   squash_merges: true
