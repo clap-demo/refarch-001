@@ -24,7 +24,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "adr"
     label: "ADR"
-    folder: "docs/decisions/records"
+    folder: "docs/system-design/09_architectural_decisions"
     create: true
     slug: "{{id}}-{{slug}}"
     summary: "00{{id}} - {{title}}"
