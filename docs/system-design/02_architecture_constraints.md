@@ -1,4 +1,6 @@
 ---
 title: Architecture Constraints
 ---
-.﻿..
+...
+
+...
