@@ -30,6 +30,6 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GH_TOKEN}}
         with:
           files: docs
-          fail_on_error: false
+          fail_on_error: true
           vale_flags: "--minAlertLevel=error"
           reporter: ${{ steps.reporter.outputs.value }}
