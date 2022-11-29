@@ -1,7 +1,6 @@
 ---
 title: Deployment View
 ---
-## b﻿liblou
 
 ## Infrastructure Level 1
 
@@ -11,10 +10,11 @@ Motivation\
 *&lt;explanation in text form&gt;*
 
 Quality and/or Performance Features\
-*&lt;explanation in text form&gt;*
+
+qualiry is the clé
 
 Mapping of Building Blocks to Infrastructure\
-*&lt;description of the mapping&gt;*
+
 
 ## Infrastructure Level 2
 
