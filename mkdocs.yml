@@ -4,6 +4,8 @@ repo_url: https://github.com/trivoallan/refarch-skel
 copyright: ""
 use_directory_urls: true
 edit_uri: edit/main/docs
+docs_dir: docs
+site_dir: public/techdocs
 
 theme:
   name: material
@@ -28,6 +30,7 @@ theme:
 plugins:
   - awesome-pages
   - search
+  - mike
 
 markdown_extensions:
   - attr_list
@@ -39,4 +42,5 @@ extra_css:
 extra:
   version:
     provider: mike
-  homepage: /
+    default: latest
+  homepage: https://trivoallan.github.io/refarch-skel/
