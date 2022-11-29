@@ -46,7 +46,7 @@ jobs:
         env:
           INFO: ${{ steps.fetch-repo-and-user-details.outputs.result }}
         run: |
-          rm -rf * .github .husky .trunk .vale.ini .vscode .gitignore
+          rm -rf * .github .trunk .vale.ini .vscode .gitignore
           export REPO_NAME=$(echo $INFO | jq -r '.repository.name')
           # Run cookiecutter
           cookiecutter gh:trivoallan/refarch-skel --directory templates/default --no-input \
@@ -64,4 +64,4 @@ jobs:
         with:
           commit_message: "Initial library structure"
           push_options: --force
-          tagging_message: 'v0.0.0'
+          tagging_message: "v0.0.0"
