@@ -1,6 +1,6 @@
 site_name: Reference Architecture Skeleton
-site_url: https://trivoallan.github.io/refarch-skel/
-repo_url: https://github.com/trivoallan/refarch-skel
+site_url: https://clap-demo.github.io/refarch-001/
+repo_url: https://github.com/clap-demo/refarch-001
 copyright: ""
 use_directory_urls: true
 
@@ -40,4 +40,4 @@ extra:
   version:
     provider: mike
     default: latest
-  homepage: https://trivoallan.github.io/refarch-skel/
+  homepage: https://clap-demo.github.io/refarch-001/
