@@ -2,20 +2,19 @@
 title: Deployment View
 ---
 
-# Deployment View
-
 ## Infrastructure Level 1
 
 ***&lt;Overview Diagram&gt;***
 
-Motivation  
+Motivation\
 *&lt;explanation in text form&gt;*
 
-Quality and/or Performance Features  
-*&lt;explanation in text form&gt;*
+Quality and/or Performance Features\
 
-Mapping of Building Blocks to Infrastructure  
-*&lt;description of the mapping&gt;*
+qualiry is the clé
+
+Mapping of Building Blocks to Infrastructure\
+
 
 ## Infrastructure Level 2
 
