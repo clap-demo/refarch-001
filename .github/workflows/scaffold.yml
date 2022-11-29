@@ -51,7 +51,7 @@ jobs:
           export REPO_NAME=$(echo $INFO | jq -r '.repository.name')
           # Run cookiecutter
           cookiecutter gh:trivoallan/refarch-skel --directory templates/default --no-input \
-            lib_name=$REPO_NAME \
+            project_slug=$REPO_NAME \
             description="$(echo $INFO | jq -r .repository.description)" \
             github_username="$(echo $INFO | jq -r .repository.owner.login)" \
             author_name="$(echo $INFO | jq -r .repository.owner.name)"
