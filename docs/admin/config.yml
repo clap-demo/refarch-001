@@ -10,8 +10,7 @@ backend:
     update: "docs({{collection}}): update {{slug}}"
     delete: "docs({{collection}}): delete {{slug}}"
 
-public_folder: "/refarch-skel/media"
-media_folder: "public/media"
+media_folder: "docs/assets/media"
 publish_mode: editorial_workflow
 
 collections:
