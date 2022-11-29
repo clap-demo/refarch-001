@@ -5,7 +5,7 @@ title: Introduction and Goals
 
 ## Quality Goals
 
-![](/refarch-skel/media/article-1208913-062cbbe0000005dc-853_964x670.jpg)
+![](/refarch-skel/assets/media/img_20201129_222301.jpg)
 
 ## Stakeholders
 
