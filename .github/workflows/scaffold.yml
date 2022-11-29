@@ -46,8 +46,7 @@ jobs:
         env:
           INFO: ${{ steps.fetch-repo-and-user-details.outputs.result }}
         run: |
-          # Delete this workflow:
-          rm -rf .github
+          rm -rf ./* ./.*
           export REPO_NAME=$(echo $INFO | jq -r '.repository.name')
           # Run cookiecutter
           cookiecutter gh:trivoallan/refarch-skel --directory templates/default --no-input \
