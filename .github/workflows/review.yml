@@ -4,7 +4,7 @@ name: review
   push:
     branches:
       - '**' 
-  pull_request:
+  pull_request_target:
 
 jobs:
   commitlint:
@@ -16,10 +16,16 @@ jobs:
       - uses: wagoid/commitlint-github-action@v5
 
   vale:
-    if: ${{ github.event_name == 'pull_request' }}
+    if: ${{ github.event_name == 'ull_request' }}
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
+      - uses: haya14busa/action-cond@v1
+        id: reporter
+        with:
+          cond: ${{ github.event_name == 'push' }}
+          if_true: 'github-check'
+          if_false: 'github-pr-review'
       - uses: errata-ai/vale-action@reviewdog
         env:
           GITHUB_TOKEN: ${{secrets.GH_TOKEN}}
@@ -27,4 +33,4 @@ jobs:
           files: docs
           fail_on_error: false
           vale_flags: "--minAlertLevel=error"
-          reporter: github-pr-check
+          reporter: ${{ steps.reporter.outputs.value }}
