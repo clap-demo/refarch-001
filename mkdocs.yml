@@ -3,7 +3,6 @@ site_url: https://trivoallan.github.io/refarch-skel/
 repo_url: https://github.com/trivoallan/refarch-skel
 copyright: ""
 use_directory_urls: true
-edit_uri: edit/main/docs
 
 theme:
   name: material
