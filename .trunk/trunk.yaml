@@ -20,9 +20,8 @@ runtimes:
     - go@1.18.3
     - node@16.14.2
 actions:
-  disabled:
-    - commitlint
   enabled:
+    - commitlint
     - trunk-fmt-pre-commit
     - trunk-check-pre-push
     - trunk-upgrade-available
